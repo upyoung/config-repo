@@ -1,5 +1,8 @@
 server:
   port: 2021
+spring:
+  application:
+    name: client
 #eureka配置
 eureka:
   client:
