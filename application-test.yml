@@ -1,11 +1,9 @@
-spring:
-  application:
-    name: client
 server:
   port: 2021
+#eureka配置
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:2020/eureka, http://localhost:2020/eureka
+      defaultZone: http://localhost:2020/eureka
   instance:
     hostname: client
