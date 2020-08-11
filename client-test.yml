@@ -1,3 +1,4 @@
+test: testclient
 server:
   port: 2021
 #eureka配置
@@ -7,4 +8,3 @@ eureka:
       defaultZone: http://127.0.0.1:2020/eureka
   instance:
     hostname: client
-test: testclient
