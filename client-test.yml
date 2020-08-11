@@ -1,4 +1,4 @@
-test: testclient
+dev: testclient
 server:
   port: 2021
 #eureka配置
